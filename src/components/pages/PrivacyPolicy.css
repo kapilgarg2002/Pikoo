@@ -1,0 +1,9 @@
+.container {
+  display: block;
+  justify-content: center;
+  padding: 25px;
+  text-align: left;
+  color: #8c0343;
+  height: 100vh;
+  background-color: wheat;
+}

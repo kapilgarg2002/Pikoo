@@ -1,0 +1,162 @@
+:root {
+    /* dark shades of primary color*/
+    --clr-primary-1: hsl(205, 86%, 17%);
+    --clr-primary-2: hsl(205, 77%, 27%);
+    --clr-primary-3: hsl(205, 72%, 37%);
+    --clr-primary-4: hsl(205, 63%, 48%);
+    /* primary/main color */
+    --clr-primary-5: hsl(205, 78%, 60%);
+    /* lighter shades of primary color */
+    --clr-primary-6: hsl(205, 89%, 70%);
+    --clr-primary-7: hsl(205, 90%, 76%);
+    --clr-primary-8: hsl(205, 86%, 81%);
+    --clr-primary-9: hsl(205, 90%, 88%);
+    --clr-primary-10: hsl(205, 100%, 96%);
+    /* darkest grey - used for headings */
+    --clr-grey-1: hsl(209, 61%, 16%);
+    --clr-grey-2: hsl(211, 39%, 23%);
+    --clr-grey-3: hsl(209, 34%, 30%);
+    --clr-grey-4: hsl(209, 28%, 39%);
+    /* grey used for paragraphs */
+    --clr-grey-5: hsl(210, 22%, 49%);
+    --clr-grey-6: hsl(209, 23%, 60%);
+    --clr-grey-7: hsl(211, 27%, 70%);
+    --clr-grey-8: hsl(210, 31%, 80%);
+    --clr-grey-9: hsl(212, 33%, 89%);
+    --clr-grey-10: hsl(210, 36%, 96%);
+    --clr-white: #fff;
+    --clr-red-dark: hsl(360, 67%, 44%);
+    --clr-red-light: hsl(360, 71%, 66%);
+    --clr-green-dark: hsl(125, 67%, 44%);
+    --clr-green-light: hsl(125, 71%, 66%);
+    --clr-black: #222;
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    --max-width: 1170px;
+    --fixed-width: 750px;
+    --clr-orange-1: hsl(12, 83%, 98%);
+    --clr-orange-2: hsl(14, 91%, 95%);
+    --clr-orange-3: hsl(12, 89%, 89%);
+    --clr-orange-4: hsl(13, 87%, 82%);
+    --clr-orange-5: hsl(13, 88%, 68%);
+    --clr-orange-6: hsl(13, 88%, 55%);
+    --clr-orange-7: hsl(13, 74%, 49%);
+    --clr-orange-8: hsl(13, 74%, 33%);
+    --clr-orange-9: hsl(13, 73%, 25%);
+    --clr-orange-10: hsl(13, 73%, 16%);
+  }
+.style{
+font-size: medium;
+color:  #260F26;
+}
+.formstyle{
+    color: #9e9d9d;
+    border: 1px solid #d4d4d4;
+    text-align: center;
+    font-size: 0.59em;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.background1 {
+     background-image: url('https://www.pandiahealth.com/wp-content/uploads/2019/02/bigstock-Women-Health-Concept-Photo-So-260959294-1.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+  }
+
+  .form1 {
+    background: #E9E4DA;
+    opacity: 90%;
+    max-width: 40%;
+    margin: auto auto;
+    margin-bottom: 0.76rem;
+    padding: 10px 15px;
+    border-radius: var(--radius);
+    min-height: 600px;
+  }
+  .form input {
+    background: var(--clr-grey-10);
+    border-color: var(--clr-black);
+    border-radius: var(--radius);
+    padding: 0.25rem 0.5rem;
+    
+  }
+  .form-control1 {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 155px 1fr;
+    align-items: center;
+    padding-top: 20px;
+    font-size: large;
+  }
+  .form-control2 {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 155px 1fr;
+    align-items: center;
+    padding-top: 20px;
+    font-size: large;
+  }
+  .form-control3 {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 255px 1fr;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+  }
+
+  .form-button {
+   
+    display: block;
+    background: var(--clr-black);
+    width: 100%;
+    color: var(--clr-white);
+    border-color: var(--clr-black);
+    margin-top: 1rem;
+    letter-spacing: var(--spacing);
+    padding: 0.15rem 0.25rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  @media screen and (max-width: 500px) {
+    .form1 {
+      background: var(--clr-white);
+      max-width: var(--fixed-width);
+      margin: auto auto;
+      margin-bottom: 4rem;
+      padding: 10px 15px;
+      border-radius: var(--radius);
+    }
+    .form input {
+      background: var(--clr-grey-10);
+      border-color: transparent;
+      border-radius: var(--radius);
+      padding: 0.25rem 0.5rem;
+      margin: 10px 0;
+    }
+    .form-control1 {
+      margin: 0.5rem 0;
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .form1 {
+      max-width: var(--fixed-width);
+    }
+  }

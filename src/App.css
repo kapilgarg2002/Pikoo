@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.GynoHelp,
+.DietPlanner,
+.ExerciseTracker {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.SelfDiagnosis {
+  /* background-image: url('C:\Users\Deekshita\pcos_and_gyno_help\src\images\img-8.jpeg'); */
+  background-color: #8c0343;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #f2cfc2;
+  font-size: 60px;
+}
+
+.PeriodTracker {
+  /* background-image: url('C:\Users\Deekshita\pcos_and_gyno_help\src\images\img-8.jpeg'); */
+  background-image: url('https://wexnermedical.osu.edu/-/media/images/wexnermedical/blog/2018-stories/09/disappearing-period/periodcalendar_bloglarge.jpg?la=en&hash=3DA20C1F1B0239637CF3B2E30B0769DFFB6CA7AB');
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f2cfc2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: transparent;
+  font-size: 60px;
+}
+
+.DietPlanner {
+  /* background-image: url('C:\Users\Deekshita\pcos_and_gyno_help\src\images\img-1.png');
+  */
+  background-image: url('https://betterme.world/articles/wp-content/uploads/2020/05/15-Day-Diet-Meal-Plan-To-Put-Weight-Loss-In-Motion.jpg');
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  /* background-color: #f2cfc2; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: transparent;
+  font-size: 60px;
+}
+
+.GynoHelp {
+  /* background-image: url('https://image.freepik.com/free-vector/gynecologist-woman-with-medical-elements-illustrated_23-2148662815.jpg'); */
+  background-image: url('https://t4.ftcdn.net/jpg/02/11/91/27/360_F_211912787_czxGhxY7eqlFPUY13U4QIujXgh93h9m9.jpg');
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f2cfc2;
+  background-position: center;
+  background-size: auto;
+  background-repeat: repeat;
+  color: transparent;
+  font-size: 60px;
+  height: fit-content;
+  margin: 0;
+}
+
+.ExerciseTracker {
+  background-image: url('https://st4.depositphotos.com/1425676/20828/i/1600/depositphotos_208284168-stock-photo-gym-fitness-equipments-white-background.jpg');
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f2cfc2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: transparent;
+  font-size: 60px;
+}
+
+.sign-up {
+  background-color: #8c0343;
+   background-image: url('purple_girls.jpg'); 
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
