@@ -88,7 +88,7 @@ function SignUp() {
                 to='/'
                
               >
-                <input type="submit" value="submit" className="submit"></ input>
+                <input type="submit" value="submit" className="submit" />
               </Link>
       </React.Fragment>
     );
